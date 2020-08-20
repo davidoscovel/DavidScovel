@@ -1,3 +1,3 @@
 Lunar Lander Project
 
-![Screenshot](LunarLanderScreenshot)
+![Screenshot](LunarLanderScreenshot.png)
