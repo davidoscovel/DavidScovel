@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5AC0C50777EC4DE7AC4C4B97 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EE47797727114328B834AB40 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				137A1F0EEF284B9CA55A9F3B /* CMake Rules */,
+			);
+			dependencies = (
+				08E63CBE990C4139917DE791 /* PBXTargetDependency */,
+				018B8DE9AB9D4849B4F012A3 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		61C4B4364D4E4032BD51BF33 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3EDC08F17FA5428B97127EA4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				22E41F63451641BBB683EE8E /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		171EBAF94C474F779F320E87 /* terrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77A439838A5249469791845B /* terrain.cpp */; };
+		174E3BAEB97142CE810DB9BF /* platforms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3020723AD9244424B06F2536 /* platforms.cpp */; };
+		9F280426CC9C44EC82FDAB31 /* spaceship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C14B935F427E463CB3F19B88 /* spaceship.cpp */; };
+		C97B31D5E7594B0FAE7DC894 /* worldclass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED5C39C463C2409B9E4F3231 /* worldclass.cpp */; };
+		E06BA21E1B904F0ABDD81715 /* helloSFML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1E075A0B4AC487D832FDA7D /* helloSFML.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D203B6D51474E569CA423AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F8180C5F9F8413FB04AA49B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EB68D9B30104F3A84759D41;
+			remoteInfo = testSFML;
+		};
+		94ED467DA1FD4FBAAB983F33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F8180C5F9F8413FB04AA49B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61C4B4364D4E4032BD51BF33;
+			remoteInfo = ZERO_CHECK;
+		};
+		C88ACF487A364C0788C15BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F8180C5F9F8413FB04AA49B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61C4B4364D4E4032BD51BF33;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14C8BF22415849D5A6A0A8B8 /* testSFML */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = testSFML; sourceTree = BUILT_PRODUCTS_DIR; };
+		3020723AD9244424B06F2536 /* platforms.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = platforms.cpp; path = src/platforms.cpp; sourceTree = SOURCE_ROOT; };
+		77A439838A5249469791845B /* terrain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = terrain.cpp; path = src/terrain.cpp; sourceTree = SOURCE_ROOT; };
+		7A0F253629884D5FBA86BA31 /* spaceship.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = spaceship.hpp; path = src/spaceship.hpp; sourceTree = SOURCE_ROOT; };
+		825D66CE62F342C8A0EA0147 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		923C0CB725EF41249D331066 /* terrain.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = terrain.hpp; path = src/terrain.hpp; sourceTree = SOURCE_ROOT; };
+		A67E2A445AA14B95A1341BAF /* worldclass.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = worldclass.hpp; path = src/worldclass.hpp; sourceTree = SOURCE_ROOT; };
+		C14B935F427E463CB3F19B88 /* spaceship.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = spaceship.cpp; path = src/spaceship.cpp; sourceTree = SOURCE_ROOT; };
+		C6181138C8E14640AEEBA1CA /* platforms.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = platforms.hpp; path = src/platforms.hpp; sourceTree = SOURCE_ROOT; };
+		D1E075A0B4AC487D832FDA7D /* helloSFML.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = helloSFML.cpp; path = src/helloSFML.cpp; sourceTree = SOURCE_ROOT; };
+		D4F645FF9BC440D6B456C374 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ED5C39C463C2409B9E4F3231 /* worldclass.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = worldclass.cpp; path = src/worldclass.cpp; sourceTree = SOURCE_ROOT; };
+		FEA3BB4FB8F64AEAA384C922 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = "Roboto-Regular.ttf"; path = "src/Roboto-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		34D3D7B126584203ADF5F2E2 = {
+			isa = PBXGroup;
+			children = (
+				A480B46D18354D769B0FA298 /* testSFML */,
+				78FC762F5716467EBF96A235 /* ALL_BUILD */,
+				E8F02901D3A04F41BB2492BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		614F37221FAF4CA7841C51F9 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1E075A0B4AC487D832FDA7D /* helloSFML.cpp */,
+				3020723AD9244424B06F2536 /* platforms.cpp */,
+				C14B935F427E463CB3F19B88 /* spaceship.cpp */,
+				77A439838A5249469791845B /* terrain.cpp */,
+				ED5C39C463C2409B9E4F3231 /* worldclass.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		67502A3E001349118F13B314 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6181138C8E14640AEEBA1CA /* platforms.hpp */,
+				7A0F253629884D5FBA86BA31 /* spaceship.hpp */,
+				923C0CB725EF41249D331066 /* terrain.hpp */,
+				A67E2A445AA14B95A1341BAF /* worldclass.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		78FC762F5716467EBF96A235 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8531FAD9D6A844BB8CF53B02 /* CMake Rules */,
+				D4F645FF9BC440D6B456C374 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		8531FAD9D6A844BB8CF53B02 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A480B46D18354D769B0FA298 /* testSFML */ = {
+			isa = PBXGroup;
+			children = (
+				614F37221FAF4CA7841C51F9 /* Source Files */,
+				67502A3E001349118F13B314 /* Header Files */,
+				825D66CE62F342C8A0EA0147 /* CMakeLists.txt */,
+				FEA3BB4FB8F64AEAA384C922 /* Roboto-Regular.ttf */,
+			);
+			name = testSFML;
+			sourceTree = "<group>";
+		};
+		E8F02901D3A04F41BB2492BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14C8BF22415849D5A6A0A8B8 /* testSFML */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EB68D9B30104F3A84759D41 /* testSFML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273A8D8234C047C7908A972A /* Build configuration list for PBXNativeTarget "testSFML" */;
+			buildPhases = (
+				0B029D506F70482CAB3370E0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				317DE3591F464C979F39CFCE /* PBXTargetDependency */,
+			);
+			name = testSFML;
+			productName = testSFML;
+			productReference = 14C8BF22415849D5A6A0A8B8 /* testSFML */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F8180C5F9F8413FB04AA49B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1030;
+			};
+			buildConfigurationList = F685639145404FDBBF53B5A1 /* Build configuration list for PBXProject "testSFML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34D3D7B126584203ADF5F2E2;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				5AC0C50777EC4DE7AC4C4B97 /* ALL_BUILD */,
+				61C4B4364D4E4032BD51BF33 /* ZERO_CHECK */,
+				2EB68D9B30104F3A84759D41 /* testSFML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		137A1F0EEF284B9CA55A9F3B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode -f /Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		22E41F63451641BBB683EE8E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode -f /Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B029D506F70482CAB3370E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06BA21E1B904F0ABDD81715 /* helloSFML.cpp in Sources */,
+				174E3BAEB97142CE810DB9BF /* platforms.cpp in Sources */,
+				9F280426CC9C44EC82FDAB31 /* spaceship.cpp in Sources */,
+				171EBAF94C474F779F320E87 /* terrain.cpp in Sources */,
+				C97B31D5E7594B0FAE7DC894 /* worldclass.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		018B8DE9AB9D4849B4F012A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EB68D9B30104F3A84759D41 /* testSFML */;
+			targetProxy = 2D203B6D51474E569CA423AA /* PBXContainerItemProxy */;
+		};
+		08E63CBE990C4139917DE791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61C4B4364D4E4032BD51BF33 /* ZERO_CHECK */;
+			targetProxy = 94ED467DA1FD4FBAAB983F33 /* PBXContainerItemProxy */;
+		};
+		317DE3591F464C979F39CFCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61C4B4364D4E4032BD51BF33 /* ZERO_CHECK */;
+			targetProxy = C88ACF487A364C0788C15BE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4028981F058748388F6947AF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		58A0F5E880AE4DEFB9288768 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Library/Frameworks/.;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics",
+					"/Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window",
+					"/Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testSFML;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		6023FA5C026D4D55A199A642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		6A50BA6A83444C9291231784 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		75655374F9DE4EF28894BCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		7DD573A633384DC29CF9FEEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		83825004CF5444C7833D99BF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		8ADC75952C3F41799522D0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Library/Frameworks/.;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++17'  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics",
+					"/Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window",
+					"/Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testSFML;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		8D8E2F2B46F74260B66750AB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		8FCD9FB9CCFB4F87B7ADFA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		AABDFA8C212640BD903E21C0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		BB02F0EF83A843B586B7EF7B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		D82F636A53FF4AD09225E517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode/build";
+			};
+			name = Release;
+		};
+		F0987C01522746078E899A72 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Library/Frameworks/.;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics",
+					"/Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window",
+					"/Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testSFML;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		F17C6AD0E4424A9EAEDADCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Library/Frameworks/.;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics",
+					"/Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window",
+					"/Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testSFML;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		F6D9CE141BB042A2BF01EB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/davidscovel/FinalProject-LunarLander/DavidDalton/Xcode/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		273A8D8234C047C7908A972A /* Build configuration list for PBXNativeTarget "testSFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ADC75952C3F41799522D0DF /* Debug */,
+				F17C6AD0E4424A9EAEDADCCC /* Release */,
+				F0987C01522746078E899A72 /* MinSizeRel */,
+				58A0F5E880AE4DEFB9288768 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3EDC08F17FA5428B97127EA4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCD9FB9CCFB4F87B7ADFA46 /* Debug */,
+				6023FA5C026D4D55A199A642 /* Release */,
+				6A50BA6A83444C9291231784 /* MinSizeRel */,
+				AABDFA8C212640BD903E21C0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EE47797727114328B834AB40 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75655374F9DE4EF28894BCF4 /* Debug */,
+				7DD573A633384DC29CF9FEEC /* Release */,
+				83825004CF5444C7833D99BF /* MinSizeRel */,
+				BB02F0EF83A843B586B7EF7B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F685639145404FDBBF53B5A1 /* Build configuration list for PBXProject "testSFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D9CE141BB042A2BF01EB91 /* Debug */,
+				D82F636A53FF4AD09225E517 /* Release */,
+				8D8E2F2B46F74260B66750AB /* MinSizeRel */,
+				4028981F058748388F6947AF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F8180C5F9F8413FB04AA49B /* Project object */;
+}

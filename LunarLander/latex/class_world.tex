@@ -1,0 +1,92 @@
+\hypertarget{class_world}{}\doxysection{World Class Reference}
+\label{class_world}\index{World@{World}}
+
+
+A class that contains all the elements of the game\textquotesingle{}s \char`\"{}\+World\char`\"{}.  
+
+
+
+
+{\ttfamily \#include $<$worldclass.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_world_aa14eaa019415ca506113f786e043e307}\label{class_world_aa14eaa019415ca506113f786e043e307}} 
+void {\bfseries draw\+\_\+world} (sf\+::\+Render\+Window \&window)
+\item 
+\mbox{\Hypertarget{class_world_aa993447e4a836fc8949cc7ad2daba91c}\label{class_world_aa993447e4a836fc8949cc7ad2daba91c}} 
+void {\bfseries update\+\_\+world} ()
+\item 
+\mbox{\Hypertarget{class_world_af48a70ebd293ebe4f52ea0dc810099ab}\label{class_world_af48a70ebd293ebe4f52ea0dc810099ab}} 
+void {\bfseries keyboard\+\_\+input} ()
+\item 
+\mbox{\Hypertarget{class_world_a0f251342a0df28ada10db00728d93acc}\label{class_world_a0f251342a0df28ada10db00728d93acc}} 
+bool {\bfseries contact} (const \mbox{\hyperlink{class_ship}{Ship}} \&ship, const sf\+::\+Vertex\+Array \&terrain)
+\item 
+\mbox{\Hypertarget{class_world_a1d5b6d717ea59ca4c6d7e13a8e0ef59b}\label{class_world_a1d5b6d717ea59ca4c6d7e13a8e0ef59b}} 
+bool {\bfseries line\+\_\+contact} (const \mbox{\hyperlink{class_ship}{Ship}} \&ship, const sf\+::\+Vector2f \&a\+\_\+p1, const sf\+::\+Vector2f \&a\+\_\+p2)
+\item 
+\mbox{\Hypertarget{class_world_aa01795d05ecc51a915553a336b3db8fc}\label{class_world_aa01795d05ecc51a915553a336b3db8fc}} 
+bool {\bfseries contact\+LP} (const \mbox{\hyperlink{class_ship}{Ship}} \&ship)
+\item 
+\mbox{\Hypertarget{class_world_ac78b4d58a7e42746ea2487dacc9f0607}\label{class_world_ac78b4d58a7e42746ea2487dacc9f0607}} 
+std\+::vector$<$ \mbox{\hyperlink{class_platform}{Platform}} $>$ {\bfseries create\+Platforms} ()
+\item 
+\mbox{\Hypertarget{class_world_a8e7d94d18116ec2982f927b7704ee65f}\label{class_world_a8e7d94d18116ec2982f927b7704ee65f}} 
+bool {\bfseries successful\+\_\+landing} (const \mbox{\hyperlink{class_ship}{Ship}} \&ship)
+\item 
+\mbox{\Hypertarget{class_world_ae61732dfcefe0b2703aaf05975c5aa22}\label{class_world_ae61732dfcefe0b2703aaf05975c5aa22}} 
+bool {\bfseries unsuccessful\+\_\+landing} (const \mbox{\hyperlink{class_ship}{Ship}} \&ship)
+\item 
+\mbox{\Hypertarget{class_world_a94d67a1c4b49557e61706ba2b971306c}\label{class_world_a94d67a1c4b49557e61706ba2b971306c}} 
+void {\bfseries reset\+\_\+world} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_world_a95e552a055ddb399553db55fcc02dadf}\label{class_world_a95e552a055ddb399553db55fcc02dadf}} 
+\mbox{\hyperlink{class_ship}{Ship}} {\bfseries ship}
+\item 
+\mbox{\Hypertarget{class_world_a8c18d6ad22d726e3d2add86fa31f7dfb}\label{class_world_a8c18d6ad22d726e3d2add86fa31f7dfb}} 
+sf\+::\+Vertex\+Array {\bfseries terrain}
+\item 
+\mbox{\Hypertarget{class_world_a8e43353d60d3176c6380cc509bbcf2e2}\label{class_world_a8e43353d60d3176c6380cc509bbcf2e2}} 
+float {\bfseries gravity}
+\item 
+\mbox{\Hypertarget{class_world_a0f431a7b2f70dce06f1991ca09db02bb}\label{class_world_a0f431a7b2f70dce06f1991ca09db02bb}} 
+float {\bfseries x}
+\item 
+\mbox{\Hypertarget{class_world_ae1c68eeda5ce5e3df2eb27be09b0a49a}\label{class_world_ae1c68eeda5ce5e3df2eb27be09b0a49a}} 
+float {\bfseries y}
+\item 
+\mbox{\Hypertarget{class_world_a86d55594b9f996b2b311e0341b2f837c}\label{class_world_a86d55594b9f996b2b311e0341b2f837c}} 
+int {\bfseries fuel\+Count}
+\item 
+\mbox{\Hypertarget{class_world_a3a0047d847afae14bbca42953d94d64f}\label{class_world_a3a0047d847afae14bbca42953d94d64f}} 
+int {\bfseries point\+Count}
+\item 
+\mbox{\Hypertarget{class_world_ae747fed02b352216aaeddfd8022afa32}\label{class_world_ae747fed02b352216aaeddfd8022afa32}} 
+\mbox{\hyperlink{class_platform}{Platform}} {\bfseries platform}
+\item 
+\mbox{\Hypertarget{class_world_ab6e76934f51c37b8bd7fe434897bf088}\label{class_world_ab6e76934f51c37b8bd7fe434897bf088}} 
+sf\+::\+Text {\bfseries text}
+\item 
+\mbox{\Hypertarget{class_world_a4c04ae62f0567d708cab13c9cb2f8e1a}\label{class_world_a4c04ae62f0567d708cab13c9cb2f8e1a}} 
+sf\+::\+Text {\bfseries crashed\+Text}
+\item 
+\mbox{\Hypertarget{class_world_ae0e289ce0930a266779e8be230723791}\label{class_world_ae0e289ce0930a266779e8be230723791}} 
+sf\+::\+Font {\bfseries font}
+\item 
+\mbox{\Hypertarget{class_world_a9c23ba1c5d606f65372bbdfad42ffcb5}\label{class_world_a9c23ba1c5d606f65372bbdfad42ffcb5}} 
+std\+::vector$<$ \mbox{\hyperlink{class_platform}{Platform}} $>$ {\bfseries platforms}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class that contains all the elements of the game\textquotesingle{}s \char`\"{}\+World\char`\"{}. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+worldclass.\+hpp\item 
+worldclass.\+cpp\end{DoxyCompactItemize}
