@@ -56,4 +56,4 @@
   
 ## PROJECTS
   * [Lunar Lander Game](https://github.com/davidoscovel/DavidScovel/tree/master/LunarLander)
-
+  * [Synthesizer](https://github.com/davidoscovel/DavidScovel/tree/master/Synthesizer)
