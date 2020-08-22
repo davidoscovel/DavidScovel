@@ -3,9 +3,8 @@
  
 ## EDUCATION	
 University of Utah
-Master of Software Development			
-
-#### Relevant Topics & Coursework
+**Master of Software Development**		
+Relevant Topics & Coursework
   * Software Development
   * Computer Programming
   * Data Structures & Algorithms
@@ -17,7 +16,7 @@ Master of Software Development
  
  
 Brigham Young University
-Bachelor of Arts Chinese, Minor: Global Business and Literacy
+**Bachelor of Arts Chinese, Minor: Global Business and Literacy**
 Relevant Topics & Coursework
   * Chinese Linguistics
   * International Business
