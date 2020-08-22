@@ -53,4 +53,7 @@
 ##### Volunteer Church Representative in Taiwan
   * Managed and directed a team of 24 in creating and implementing a plan into a foreign market.
   * Adapted to a foreign environment and challenging situations.
+  
+## PROJECTS
+
 
