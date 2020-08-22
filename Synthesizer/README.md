@@ -1,4 +1,6 @@
-Synthesizer Project
+# Synthesizer Project
+
+##
 
 ![Screenshot](SynthScreenshot1.png)
 
