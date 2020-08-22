@@ -55,5 +55,5 @@
   * Adapted to a foreign environment and challenging situations.
   
 ## PROJECTS
-  * [Lunar Lander Game](../tree/master/LunarLander)
+  * [Lunar Lander Game](https://github.com/davidoscovel/DavidScovel/tree/master/LunarLander)
 
