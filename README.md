@@ -2,7 +2,7 @@
 
  
 ## EDUCATION	
-University of Utah
+##### University of Utah
 
 **Master of Software Development**		
   * Software Development
@@ -15,7 +15,7 @@ University of Utah
   * Data Analytics & Visualization
  
  
-Brigham Young University
+##### Brigham Young University
 
 **Bachelor of Arts Chinese, Minor: Global Business and Literacy**
   * Chinese Linguistics
@@ -38,12 +38,13 @@ Brigham Young University
   * Mandarin Chinese
  
 ## EXPERIENCE	
-Alliance Health
+##### Alliance Health
 
-Test Team Sales Representative
+**Test Team Sales Representative**
   * Tested and implemented an insurance compatibility technology that increased the efficiency of the sales process.
   * Top salesman in the company March 2017.
-Sales Representative
+  
+**Sales Representative**
   * Assisted hundreds of medical device customers per week.
   * Generated over $1,000,000 in revenue.
  
