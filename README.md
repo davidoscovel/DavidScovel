@@ -3,7 +3,9 @@
  
 ## EDUCATION	
 University of Utah
+
 **Master of Software Development**		
+
 Relevant Topics & Coursework
   * Software Development
   * Computer Programming
@@ -16,7 +18,9 @@ Relevant Topics & Coursework
  
  
 Brigham Young University
+
 **Bachelor of Arts Chinese, Minor: Global Business and Literacy**
+
 Relevant Topics & Coursework
   * Chinese Linguistics
   * International Business
@@ -39,6 +43,7 @@ Relevant Topics & Coursework
  
 ## EXPERIENCE	
 Alliance Health
+
 Test Team Sales Representative
   * Tested and implemented an insurance compatibility technology that increased the efficiency of the sales process.
   * Top salesman in the company March 2017.
