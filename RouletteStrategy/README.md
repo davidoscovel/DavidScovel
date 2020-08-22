@@ -6,3 +6,8 @@ One day I was curious about how different strategies of Roulette would perform a
 ### Tools
 Java
 
+### Preview
+Some of the outputs from the Program:
+
+![Screenshot](Roulette.png)
+
