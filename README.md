@@ -1,5 +1,10 @@
 # DavidScovel
 
+## PROJECTS
+  * [Lunar Lander Game](https://github.com/davidoscovel/DavidScovel/tree/master/LunarLander)
+  * [Synthesizer](https://github.com/davidoscovel/DavidScovel/tree/master/Synthesizer)
+  * [Roulette Strategy Analyzer](https://github.com/davidoscovel/DavidScovel/tree/master/RouletteStrategy)
+  * [MSD Script](https://github.com/davidoscovel/DavidScovel/tree/master/MSDScript)
  
 ## EDUCATION	
 ##### University of Utah
@@ -14,19 +19,11 @@
   * Software Engineering
   * Data Analytics & Visualization
  
- 
 ##### Brigham Young University
 
 **Bachelor of Arts Chinese, Minor: Global Business and Literacy**
   * Chinese Linguistics
   * International Business
-  
-## PROJECTS
-  * [Lunar Lander Game](https://github.com/davidoscovel/DavidScovel/tree/master/LunarLander)
-  * [Synthesizer](https://github.com/davidoscovel/DavidScovel/tree/master/Synthesizer)
-  * [Roulette Strategy Analyzer](https://github.com/davidoscovel/DavidScovel/tree/master/RouletteStrategy)
-  * [MSD Script](https://github.com/davidoscovel/DavidScovel/tree/master/MSDScript)
- 
  
 ## Skills 
 #### Programming
