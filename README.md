@@ -25,7 +25,7 @@
   * Chinese Linguistics
   * International Business
  
-## Skills 
+## SKILLS 
 #### Programming
   * Computer Programming
   * Java
