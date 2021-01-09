@@ -49,8 +49,8 @@
   * Top salesman in the company March 2017.
   
 **Sales Representative**
-  * Assisted hundreds of medical device customers per week.
   * Generated over $1,000,000 in revenue.
+  * Consistently performed in the top 10% among the 200+ sales reps in the sales department.
  
 ## SERVICE	
 ##### Volunteer Church Representative in Taiwan
