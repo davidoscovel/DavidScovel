@@ -7,7 +7,7 @@
   * [MSD Script](https://github.com/davidoscovel/DavidScovel/tree/master/MSDScript)
  
 ## EDUCATION	
-##### University of Utah
+##### University of Utah - School of Computing
 
 **Master of Software Development**		
   * Software Development
